@@ -1,0 +1,325 @@
+    /* Desktop version*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* body {
+    background-color: white;
+} */
+    
+    section .blanja {
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    section .blanja img {
+        height: 50px;
+        width: 35px;
+    }
+    
+    section .blanja .word {
+        margin-top: 20px;
+        margin-left: 5px;
+        color: rgba(219, 48, 34, 1);
+        font-weight: 1000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    section h4 {
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+        font-size: 18px;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .center .seller {
+        background-color: rgba(219, 48, 34, 1);
+        border: 1px solid gray;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+    }
+    /* .center .seller a {
+        text-decoration: none;
+        padding: 10px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+    }
+     */
+    
+    .center .customer {
+        background-color: white;
+        border: 1px solid gray;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: rgba(155, 155, 155, 1);
+    }
+    /* .center .customer a {
+        text-decoration: none;
+        padding: 5px 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: rgba(155, 155, 155, 1);
+    } */
+    
+    .input {
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    #email {
+        width: 400px;
+        height: 48px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        color: gray;
+        font-weight: 600;
+    }
+    
+    #password {
+        width: 400px;
+        height: 48px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        color: gray;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    
+    #name {
+        width: 400px;
+        height: 48px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        color: gray;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    #phone {
+        width: 400px;
+        height: 48px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        color: gray;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    
+    #store {
+        width: 400px;
+        height: 48px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        color: gray;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    
+    .primary {
+        border-radius: 20px;
+        background-color: rgba(219, 48, 34, 1);
+        border: 1px solid gray;
+        /* padding: 10px 10px; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+        width: 401px;
+        height: 48px;
+    }
+    /* .primary a {
+        text-decoration: none;
+        padding: 10px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+    } */
+    
+    p {
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    p a {
+        text-decoration: none;
+        color: rgba(219, 48, 34, 1);
+    }
+    
+    .container {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .container a {
+        margin-left: 285px;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(219, 48, 34, 1);
+    }
+    
+    .center2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    /* @media all and (min-width: 600px) {
+        .aside {
+            flex: 1 auto;
+        }
+    }
+    
+    @media all and (min-width: 800px) {
+        .main {
+            flex: 3 0px;
+        }
+    } */
+    /* @media only screen and (device-width: 768px) {
+        #store {
+            width: 450px;
+            height: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            color: gray;
+            font-weight: 600;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+    } */
+    
+    @media only screen and (max-width: 768px) {
+        section .blanja {
+            margin-top: 70px;
+            display: flex;
+            justify-content: center;
+        }
+        section .blanja img {
+            height: 35px;
+            width: 25px;
+        }
+        section .blanja .word {
+            margin-top: 13px;
+            margin-left: 5px;
+            color: rgba(219, 48, 34, 1);
+            font-weight: 700;
+            font-size: 9px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        section h4 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+        }
+        #email {
+            width: 345px;
+            height: 48px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            color: gray;
+            font-weight: 600;
+            border: 1px solid black;
+        }
+        #password {
+            width: 345px;
+            height: 48px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            color: gray;
+            font-weight: 600;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        .container a {
+            margin-left: 200px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(219, 48, 34, 1);
+        }
+        #name {
+            width: 345px;
+            height: 48px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            color: gray;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border: 1px solid black;
+        }
+        #phone {
+            width: 345px;
+            height: 48px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            color: gray;
+            font-weight: 600;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        #store {
+            width: 345px;
+            height: 48px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            color: gray;
+            font-weight: 600;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        .primary {
+            border-radius: 20px;
+            background-color: rgba(219, 48, 34, 1);
+            border: 1px solid gray;
+            width: 340px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+        }
+        /* .primary a {
+            text-decoration: none;
+            padding: 10px 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 1);
+        } */
+    }
+    /* @media screen and (max-width: 992px) {
+        body {
+            background-color: blue;
+        }
+    } */
