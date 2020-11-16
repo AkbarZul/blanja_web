@@ -313,18 +313,21 @@ section {
     .container .benjamin .benjamin2 h3 {
         font-size: 12px;
         margin-top: -50px;
-        margin-left: -62px;
+        margin-left: -120px;
     }
     .container .benjamin .dooley h3 {
         font-size: 12px;
         margin-top: -80px;
-        margin-left: -72px;
+        margin-left: -120px;
     }
     .suit5 {
         margin-left: -20px;
     }
     .shoes {
         margin-left: -17px;
+    }
+    .info2 .suit1 {
+        margin-top: 20px;
     }
     .info2 .suit2 {
         margin-top: 20px;
