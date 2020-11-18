@@ -211,7 +211,7 @@ section {
 }
 
 .card {
-    box-shadow: 0px 0px 14px
+    box-shadow: 1px 1px 10px
 }
 
 .card h5 {
@@ -290,56 +290,8 @@ section {
         width: 300px;
         height: 36px;
     }
-    .container .benjamin .benjamin2 img {
-        width: 250px;
-        margin-top: 30px;
-    }
-    .container .benjamin .dooley img {
-        width: 250px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .container .benjamin .ian img {
-        width: 50px;
-        height: 100px;
-        margin-top: 30px;
-        margin-bottom: -30px;
-    }
-    .container .benjamin .jonathan img {
-        width: 50px;
-        height: 100px;
-        margin-top: 30px;
-    }
-    .container .benjamin .benjamin2 h3 {
-        font-size: 12px;
-        margin-top: -50px;
-        margin-left: -120px;
-    }
-    .container .benjamin .dooley h3 {
-        font-size: 12px;
-        margin-top: -80px;
-        margin-left: -120px;
-    }
-    .suit5 {
-        margin-left: -20px;
-    }
-    .shoes {
-        margin-left: -17px;
-    }
-    .info2 .suit1 {
-        margin-top: 20px;
-    }
-    .info2 .suit2 {
-        margin-top: 20px;
-    }
-    .info2 .suit3 {
-        margin-top: 20px;
-    }
-    .info2 .suit4 {
-        margin-top: 20px;
-    }
-    .info2 .suit5 {
-        margin-top: 20px;
+    .info .shoes {
+        margin-right: 20px;
     }
     /* .card-deck .card {
         width: 126px;
